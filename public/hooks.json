@@ -1,0 +1,128 @@
+[
+  {
+    "id": "prevent-force-push",
+    "name": "Prevent Force Push",
+    "description": "Blocks any git push --force or git push -f command before it executes, preventing accidental history rewrites on shared branches.",
+    "category": "Safety",
+    "repoUrl": "https://github.com/anthropics/claude-code",
+    "author": "anthropics",
+    "event": "PreToolUse"
+  },
+  {
+    "id": "block-rm-rf",
+    "name": "Block rm -rf",
+    "description": "Intercepts Bash tool calls and exits with an error if the command contains rm -rf, protecting against accidental recursive deletions.",
+    "category": "Safety",
+    "repoUrl": "https://github.com/anthropics/claude-code",
+    "author": "anthropics",
+    "event": "PreToolUse"
+  },
+  {
+    "id": "auto-prettier",
+    "name": "Auto Prettier",
+    "description": "Runs Prettier on any file that was just written or edited by Claude, ensuring consistent code formatting without manual intervention.",
+    "category": "Formatting",
+    "repoUrl": "https://github.com/prettier/prettier",
+    "author": "prettier",
+    "event": "PostToolUse"
+  },
+  {
+    "id": "eslint-fix",
+    "name": "ESLint Auto-Fix",
+    "description": "Automatically runs eslint --fix on modified JavaScript and TypeScript files after each edit, keeping the codebase lint-clean in real time.",
+    "category": "Formatting",
+    "repoUrl": "https://github.com/eslint/eslint",
+    "author": "eslint",
+    "event": "PostToolUse"
+  },
+  {
+    "id": "slack-notify",
+    "name": "Slack Notifier",
+    "description": "Sends a Slack message to a configured channel when Claude finishes responding, useful for long-running background sessions.",
+    "category": "Notifications",
+    "repoUrl": "https://github.com/slackapi/bolt-js",
+    "author": "slackapi",
+    "event": "Stop"
+  },
+  {
+    "id": "desktop-notify",
+    "name": "Desktop Notification",
+    "description": "Fires a macOS or Linux desktop notification via osascript/notify-send when Claude stops, so you can step away and get called back.",
+    "category": "Notifications",
+    "repoUrl": "https://github.com/anthropics/claude-code",
+    "author": "anthropics",
+    "event": "Stop"
+  },
+  {
+    "id": "tool-logger",
+    "name": "Tool Usage Logger",
+    "description": "Appends a JSON log entry for every tool Claude uses, recording the tool name, arguments, and timestamp to a local file for auditing.",
+    "category": "Logging",
+    "repoUrl": "https://github.com/anthropics/claude-code",
+    "author": "anthropics",
+    "event": "PostToolUse"
+  },
+  {
+    "id": "prompt-logger",
+    "name": "Prompt Logger",
+    "description": "Logs every user prompt to a local markdown file with a timestamp, giving you a searchable archive of every instruction you gave Claude.",
+    "category": "Logging",
+    "repoUrl": "https://github.com/anthropics/claude-code",
+    "author": "anthropics",
+    "event": "UserPromptSubmit"
+  },
+  {
+    "id": "test-runner",
+    "name": "Auto Test Runner",
+    "description": "Runs the project's test suite after every file edit and blocks Claude from continuing if tests fail, enforcing a green-tests-always policy.",
+    "category": "Validation",
+    "repoUrl": "https://github.com/anthropics/claude-code",
+    "author": "anthropics",
+    "event": "PostToolUse"
+  },
+  {
+    "id": "type-check",
+    "name": "TypeScript Type Check",
+    "description": "Runs tsc --noEmit after TypeScript file edits and surfaces compiler errors as hook output so Claude can fix them in the same session.",
+    "category": "Validation",
+    "repoUrl": "https://github.com/microsoft/TypeScript",
+    "author": "microsoft",
+    "event": "PostToolUse"
+  },
+  {
+    "id": "auto-commit",
+    "name": "Auto Commit",
+    "description": "Stages all changes and creates a git commit with an AI-generated message every time Claude finishes a response, creating a fine-grained history.",
+    "category": "Automation",
+    "repoUrl": "https://github.com/anthropics/claude-code",
+    "author": "anthropics",
+    "event": "Stop"
+  },
+  {
+    "id": "secret-scanner",
+    "name": "Secret Scanner",
+    "description": "Scans file contents for API keys, tokens, and passwords before writing them to disk, blocking accidental credential leaks.",
+    "category": "Security",
+    "repoUrl": "https://github.com/trufflesecurity/trufflehog",
+    "author": "trufflesecurity",
+    "event": "PreToolUse"
+  },
+  {
+    "id": "dependency-audit",
+    "name": "Dependency Auditor",
+    "description": "Runs npm audit or pip-audit whenever a dependency file changes and fails loudly if high-severity vulnerabilities are found.",
+    "category": "Security",
+    "repoUrl": "https://github.com/snyk/cli",
+    "author": "snyk",
+    "event": "PostToolUse"
+  },
+  {
+    "id": "token-counter",
+    "name": "Token Counter",
+    "description": "Estimates and logs the token count of each user prompt before it is sent, helping you monitor context usage across a long session.",
+    "category": "Custom",
+    "repoUrl": "https://github.com/anthropics/anthropic-tokenizer-typescript",
+    "author": "anthropics",
+    "event": "UserPromptSubmit"
+  }
+]

@@ -1,0 +1,63 @@
+[     833ms] [WARNING] Specifying 'overflow: visible' on img, video and canvas tags may cause them to produce visual content outside of the element bounds. See https://github.com/WICG/view-transitions/blob/main/debugging_overflow_on_images.md for details. @ https://www.cnn.com/:13638
+[    1380ms] [LOG] AdFuelError event fired: CustomEvent @ https://www.cnn.com/media/sites/js/bundles/cnn-adfuel-body-7074d32a40e2df03df1edf43d5688376effcd2f78e774d3b81885a3798eabf0c.min.js:0
+[    1978ms] [ERROR] %c Consent was NOT granted, Limited Ads does not apply, AdFuel will not load. background: red;color:white; @ https://www.cnn.com/media/sites/js/bundles/cnn-adfuel-body-7074d32a40e2df03df1edf43d5688376effcd2f78e774d3b81885a3798eabf0c.min.js:0
+[    1978ms] [LOG] AdFuelError event fired: CustomEvent @ https://www.cnn.com/media/sites/js/bundles/cnn-adfuel-body-7074d32a40e2df03df1edf43d5688376effcd2f78e774d3b81885a3798eabf0c.min.js:0
+[    2244ms] [LOG] 🔄 Fetching SVG from: https://www.cnn.com/interactive/uploads/20260209-mission-map-02-01.svg @ https://ix.cnn.io/dailygraphics/graphics/20260330-artemis-ii-mission-hp/assets/main-DIZK6ZY2.js:0
+[    2454ms] [LOG] ✅ SVG element found: svg JSHandle@node @ https://ix.cnn.io/dailygraphics/graphics/20260330-artemis-ii-mission-hp/assets/main-DIZK6ZY2.js:0
+[    2455ms] [LOG] 🗑️ Background group removed @ https://ix.cnn.io/dailygraphics/graphics/20260330-artemis-ii-mission-hp/assets/main-DIZK6ZY2.js:0
+[    2455ms] [LOG] ✅ SVG injected successfully @ https://ix.cnn.io/dailygraphics/graphics/20260330-artemis-ii-mission-hp/assets/main-DIZK6ZY2.js:0
+[    2456ms] [LOG] ✅ Loaded missionPath1: 857.7 units, loop duration: 21.44s, speed: 40 @ https://ix.cnn.io/dailygraphics/graphics/20260330-artemis-ii-mission-hp/assets/main-DIZK6ZY2.js:0
+[    2456ms] [LOG] ✅ Loaded missionPath2: 344.5 units, loop duration: 8.61s, speed: 40 @ https://ix.cnn.io/dailygraphics/graphics/20260330-artemis-ii-mission-hp/assets/main-DIZK6ZY2.js:0
+[    2456ms] [LOG] ✅ Loaded missionPath3: 292.0 units, loop duration: 7.30s, speed: 40 @ https://ix.cnn.io/dailygraphics/graphics/20260330-artemis-ii-mission-hp/assets/main-DIZK6ZY2.js:0
+[    2456ms] [LOG] ✅ Loaded missionPath4: 442.8 units, loop duration: 11.07s, speed: 40 @ https://ix.cnn.io/dailygraphics/graphics/20260330-artemis-ii-mission-hp/assets/main-DIZK6ZY2.js:0
+[    2456ms] [LOG] 📹 Initial ViewBox set to: -5 5 280 160 (mobile) @ https://ix.cnn.io/dailygraphics/graphics/20260330-artemis-ii-mission-hp/assets/main-DIZK6ZY2.js:0
+[    2456ms] [LOG] ✅ All path segments loaded: [missionPath1, missionPath2, missionPath3, missionPath4] @ https://ix.cnn.io/dailygraphics/graphics/20260330-artemis-ii-mission-hp/assets/main-DIZK6ZY2.js:0
+[    2456ms] [LOG] ✅ Created Earth label at (99.0, 30.0) @ https://ix.cnn.io/dailygraphics/graphics/20260330-artemis-ii-mission-hp/assets/main-DIZK6ZY2.js:0
+[    2456ms] [LOG] ✅ Created Moon label at (534.0, 52.0) @ https://ix.cnn.io/dailygraphics/graphics/20260330-artemis-ii-mission-hp/assets/main-DIZK6ZY2.js:0
+[    2457ms] [LOG] 🔵 Creating circle indicator... @ https://ix.cnn.io/dailygraphics/graphics/20260330-artemis-ii-mission-hp/assets/main-DIZK6ZY2.js:0
+[    2457ms] [LOG] ✅ Circle indicator and text created @ https://ix.cnn.io/dailygraphics/graphics/20260330-artemis-ii-mission-hp/assets/main-DIZK6ZY2.js:0
+[    2457ms] [LOG] Animation running! elapsedSeconds: 432000 pathCache: [missionPath1, missionPath2, missionPath3, missionPath4] @ https://ix.cnn.io/dailygraphics/graphics/20260330-artemis-ii-mission-hp/assets/main-DIZK6ZY2.js:0
+[    2459ms] [LOG] 📹 ViewBox changed to: 380 0 310 180 for missionPath3 (mobile) @ https://ix.cnn.io/dailygraphics/graphics/20260330-artemis-ii-mission-hp/assets/main-DIZK6ZY2.js:0
+[    2557ms] [LOG] 📐 Pym height sent after SVG load @ https://ix.cnn.io/dailygraphics/graphics/20260330-artemis-ii-mission-hp/assets/main-DIZK6ZY2.js:0
+[    2745ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:80
+[    2747ms] [ERROR] Not signed in with the identity provider. @ https://www.cnn.com/:0
+[    3154ms] [LOG] {adSessionID: c90384c0-7027-47dd-8d2e-6787420bfca4, advertisingIdentifier: null, appSessionId: c90384c0-7027-47dd-8d2e-6787420bfca4, applicationIdentifier: www.cnn.com, applicationName: cnn} @ https://registry.api.cnn.io/bundles/fave/boltPlayer-b296f72a/boltPlayer:0
+[    3191ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://www.cnn.com/:18351:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:266761)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:267299)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:268206)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:227494)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:355213)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:345231)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:338565)
+    at https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:311229 @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[    3215ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://www.cnn.com/:18351:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:266761)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:267299)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:268206)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:227494)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:355213)
+    at https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:327406
+    at a.execute (https://registry.api.cnn.io/bundles/fave/vendor-f9ea2c98/vendor:1:1025302)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-f9ea2c98/vendor:1:1027406)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-f9ea2c98/vendor:1:1025127) @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[    3216ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://www.cnn.com/:18351:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:266761)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:267299)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:268206)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:227494)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:355213)
+    at https://registry.api.cnn.io/bundles/fave/boltInstance-476be30d/boltInstance:1:327574
+    at a.execute (https://registry.api.cnn.io/bundles/fave/vendor-f9ea2c98/vendor:1:1025302)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-f9ea2c98/vendor:1:1027406)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-f9ea2c98/vendor:1:1025127) @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[    3894ms] [LOG] [BL]  [raiseEvent] OnInit{"elementUrl":"https://www.cnn.com/"} @ https://registry.api.cnn.io/bundles/fave/boltPlayer-b296f72a/boltPlayer:0
+[    3895ms] [LOG] [BL]  [raiseEvent] OnManifestLoadedundefined @ https://registry.api.cnn.io/bundles/fave/boltPlayer-b296f72a/boltPlayer:0
+[    4466ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://registry.api.cnn.io/bundles/fave/boltPlayer-b296f72a/boltPlayer:0
+[    5022ms] [ERROR] Player | Player received error, stopping playback session: be2d9520-9c01-4e47-a794-0bca374b506b code:1K-0043 message: NoKeySystemAvailable: No key system available on device undefined @ https://registry.api.cnn.io/bundles/fave/boltPlayer-b296f72a/boltPlayer:1344
+[    5880ms] TypeError: Cannot read properties of undefined (reading 'track')
+    at c (https://www.cnn.com/:18688:1241)
+    at T (https://www.cnn.com/:18688:1442)
